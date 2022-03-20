@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.generateReceipt">
+   <children>
+      <Label layoutX="152.0" layoutY="25.0" prefHeight="34.0" prefWidth="316.0" text="COVID-19 VACCINATION CENTER RECEIPT" textAlignment="CENTER" textFill="#dbd521">
+         <font>
+            <Font name="SansSerif Bold" size="15.0" />
+         </font>
+      </Label>
+      <Line endX="286.0" layoutX="288.0" layoutY="77.0" startX="-263.0" />
+      <Line endX="-100.0" endY="281.0" layoutX="126.0" layoutY="92.0" startX="-100.0" startY="-14.5" />
+      <Line endX="111.5" endY="-58.5" layoutX="463.0" layoutY="136.0" startX="111.5" startY="237.0" />
+      <Line endX="284.0" endY="0.5" layoutX="291.0" layoutY="372.0" startX="-264.5" startY="0.5" />
+      <Label layoutX="79.0" layoutY="113.0" text="First Name">
+         <font>
+            <Font name="SansSerif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="143.0" text="Surname">
+         <font>
+            <Font name="SansSerif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="171.0" text="Age">
+         <font>
+            <Font name="SansSerif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="200.0" prefHeight="17.0" prefWidth="27.0" text="City">
+         <font>
+            <Font name="SansSerif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="232.0" text="NIC or Passport Number">
+         <font>
+            <Font name="SansSerif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="261.0" prefHeight="16.0" prefWidth="163.0" text="Vaccination Requested">
+         <font>
+            <Font name="SansSerif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label1" layoutX="322.0" layoutY="113.0" />
+      <Label fx:id="Label2" layoutX="322.0" layoutY="143.0" />
+      <Label fx:id="Label3" layoutX="322.0" layoutY="171.0" />
+      <Label fx:id="Label4" layoutX="322.0" layoutY="200.0" />
+      <Label fx:id="Label5" layoutX="322.0" layoutY="232.0" />
+      <Label fx:id="Label6" layoutX="322.0" layoutY="261.0" />
+      <Label fx:id="dAndT" layoutX="457.0" layoutY="77.0" prefHeight="24.0" prefWidth="117.0" />
+      <Label layoutX="79.0" layoutY="288.0" prefHeight="16.0" prefWidth="101.0" text="Booth Number">
+         <font>
+            <Font name="SansSerif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label7" layoutX="334.0" layoutY="288.0" prefWidth="10.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="Fname" layoutX="289.0" layoutY="89.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="Sname" layoutX="289.0" layoutY="119.0" prefHeight="25.0" prefWidth="200.0" />
+      <Button fx:id="genRec" layoutX="433.0" layoutY="335.0" mnemonicParsing="false" onAction="#click" prefHeight="25.0" prefWidth="112.0" style="-fx-cursor: pointer;" text="Generate Receipt" />
+      <ChoiceBox fx:id="vaccineReq" layoutX="84.0" layoutY="335.0" prefHeight="25.0" prefWidth="200.0" style="-fx-cursor: pointer;" />
+      <Label layoutX="122.0" layoutY="24.0" prefHeight="34.0" prefWidth="335.0" text="COVID-19 VACCINATION CENTER PROGRAM" textAlignment="CENTER" textFill="#daad18">
+         <font>
+            <Font name="SansSerif Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="93.0" prefHeight="17.0" prefWidth="61.0" text="First Name" textAlignment="CENTER">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="123.0" prefHeight="17.0" prefWidth="61.0" text="Surname">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="156.0" prefHeight="17.0" prefWidth="61.0" text="Age">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="192.0" prefHeight="17.0" prefWidth="61.0" text="City">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="227.0" prefHeight="17.0" prefWidth="127.0" text="NIC or Passport No">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="298.0" prefHeight="25.0" prefWidth="137.0" text="Vaccination Requested">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Age" layoutX="289.0" layoutY="152.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="City" layoutX="289.0" layoutY="188.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="Nic" layoutX="289.0" layoutY="223.0" prefHeight="25.0" prefWidth="200.0" />
+      <Label layoutX="122.0" layoutY="270.0" prefHeight="17.0" prefWidth="87.0" text="Booth Number">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="boothNum" layoutX="289.0" layoutY="266.0" prefHeight="25.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
